@@ -2,7 +2,7 @@ read a
 read b
 read c
 
-if [ $a == $b  $b == $c  $a == $c ]
+if [ $a == $b -a $b == $c -a $a == $c ]
 then
 echo EQUILATERAL
 

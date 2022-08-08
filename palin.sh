@@ -9,4 +9,10 @@ do
 done
 echo "original string : $a"
 echo "reversed string : $revstr"
+if [ $a == $revstr ];then
+        echo "the entered string is a palindrome"
+else
+        echo "the entered string is not a palindrome"
+fi
+
 

@@ -11,3 +11,4 @@ echo "There are 30 days in $month.";;
 echo "There are 31 days in $month.";;
   *)
 echo "Unknown month. Please check if you entered the correct month name: $month";;
+esac

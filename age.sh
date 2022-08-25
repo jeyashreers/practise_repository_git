@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 echo "enter your birth year"
 read year
 echo "enter your birth month"

@@ -6,7 +6,7 @@ read month
 cyear=$(date '+%Y')
 cmonth=$(date '+%m')
 agey=`expr $cyear - $year`
-agem=`expr $cmonth -$month`
+agem=`expr $cmonth - $month`
 if [ $agem -lt 0 ];
 then
 agem=`expr $cmonth - $month + 12`
